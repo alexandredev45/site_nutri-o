@@ -1,5 +1,36 @@
-@media screen and (min-width:1024px) {
-    .box_banner1{
-        
-    }
+*{
+    margin: 0;
+    padding: 0;
 }
+:root{
+    --branco: #FFF;
+    --preto-fonte: #000000;
+}
+#box_banner1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+body{
+    color: var(--preto-fonte);
+    background-color: var(--branco);
+    font-family: 'K2D', sans-serif;
+}
+.box_conteudo{
+    width: 85%;
+}
+.box_conteudo img{
+    border-radius: 15px;
+    justify-content: center;
+}
+
+h2
+{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
